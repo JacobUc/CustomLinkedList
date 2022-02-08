@@ -34,7 +34,7 @@ class LinkList {
     public void displayList() {
 
         if(isEmpty()){
-            System.out.println("\nLa pila esta vacia, ningun elemento para mostrar");
+            System.out.println("\nLa lista esta vacia, ningun elemento para mostrar");
         }else{
             System.out.print("List (first--> ");
             Link current = first;
